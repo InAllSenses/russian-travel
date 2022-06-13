@@ -5,8 +5,8 @@
 /* Page */
 @import url('../page/page.css');
 @import url('../page/_content/page__content.css');
-@import url('../page/_footer/page__footer.css');
 @import url('../page/_header/page__header.css');
+@import url('../page/_footer/page__footer.css');
 
 /* Content */
 @import url('../content/content.css');
@@ -22,10 +22,12 @@
 /* Footer */
 @import url('../footer/footer.css');
 @import url('../footer/__copyright/footer__copyright.css');
-@import url('../footer/__link/footer__link.css');
+@import url('../footer/__links/footer__links.css');
+@import url('../footer/__links/__link/footer__link.css');
 
 /* Intro */
 @import url('../intro/intro.css');
+@import url('../intro/__section/intro__section.css');
 @import url('../intro/__list/intro__list.css');
 @import url('../intro/__text/intro__text.css');
 @import url('../intro/__title/intro__title.css');
@@ -50,8 +52,11 @@
 /* Places */
 @import url('../places/places.css');
 @import url('../places/__place/place.css');
+@import url('../places/__section/places__section.css');
 @import url('../places/__place/__image/place__image.css');
 @import url('../places/__place/__paragraph/place__paragraph.css');
+@import url('../places/__place/__paragraph/__paragraph-1/place__paragraph-1.css');
+@import url('../places/__place/__paragraph/__paragraph-2/place__paragraph-2.css');
 @import url('../places/__place/__title/place__title.css');
 @import url('../places/__place/__website/place__website.css');
 @import url('../places/__place/__website/__link/place__website__link.css');

@@ -1,5 +1,7 @@
 .intro {
-height: 429px;
-width: 690px;
-display: block;
+font-family: 'Inter', Arial, sans-serif;
+max-height: 429px;
+max-width: 690px;
+display: flex;
+flex-direction: column;
 }

@@ -1,7 +1,8 @@
 .lead {
-height: 1005px;
-width: 984px;
-display: block;
+font-family: 'Inter', Arial, sans-serif;
+display: flex;
+flex-direction: column;
+max-height: 1005px;
+max-width: 984px;
 margin: auto;
-margin-top: 136px;
 }

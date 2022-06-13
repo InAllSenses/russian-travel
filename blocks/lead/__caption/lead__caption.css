@@ -3,5 +3,11 @@ height: 14px;
 width: 158px;
 font-size: 10px;
 line-height: 14px;
-letter-spacing: 1.5;
+letter-spacing: 1.5px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+text-transform: uppercase;
+padding: 0;
+margin: 8px 0 0;
 }

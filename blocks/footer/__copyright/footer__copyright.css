@@ -3,5 +3,9 @@
     width: 186px;
     color: #fff;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 114%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    text-align: right;
 }
