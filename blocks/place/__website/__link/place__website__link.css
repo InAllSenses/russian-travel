@@ -1,6 +1,4 @@
 .place__website__link {
-    height: 22px;
-    width: 456px;
     font-size: 18px;
     line-height: 122%;
     font-family: 'Inter';
@@ -12,6 +10,8 @@
     margin: 12px 0 0 0;
 }
 
-.place__website__link:hover {
-    color: #00f;
+.place__link:hover {
+    transition: .3s;
+    opacity: .5;
+    
 }

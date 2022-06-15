@@ -1,0 +1,22 @@
+.places__place {
+    font-family: 'Inter', Arial, sans-serif;
+    margin: 0;
+}
+
+/* @media screen and (max-width: 1152px) {
+    .places__place {
+        margin: 0 48px;
+    }
+  }
+  
+  @media screen and (max-width: 984px) {
+    .places__place {
+        margin: 0 24px;
+    }
+  }
+  
+  @media screen and (max-width: 568px) {
+    .places__place {
+        margin: 0;
+    }
+  }  */

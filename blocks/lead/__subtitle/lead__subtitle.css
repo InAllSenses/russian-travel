@@ -8,3 +8,20 @@ margin: 32px auto 64px;
 font-family: 'Inter';
 font-weight: 400;
 }
+
+@media screen and (max-width: 1152px) {
+    .lead__subtitle {
+        margin: 32px auto 56px;
+    }
+  }
+
+
+@media screen and (max-width: 568px) {
+    .lead__subtitle {
+        font-size: 16px;
+        line-height: 20px;
+        margin: 16px auto 40px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+  }

@@ -1,5 +1,4 @@
-.places {
-    max-height: 3392px;
-    max-width: 984px;
-    margin: auto;
+.places { 
+  display: flex;
+  flex-direction: column;
 }

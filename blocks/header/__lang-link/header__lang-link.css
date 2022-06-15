@@ -14,5 +14,14 @@ align-items: Right;
 }
 
 .header__lang-link:hover {
-    color: #00f;
+    transition: .3s;
+    opacity: .5;
+    
+}
+
+@media screen and (max-width: 568px) {
+    .header__lang-link {
+        font-size: 18px;
+        line-height: 20px;
+    }
 }

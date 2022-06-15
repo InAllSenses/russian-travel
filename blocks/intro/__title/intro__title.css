@@ -1,6 +1,4 @@
 .intro__title {
-    max-height: 58px;
-    max-width: 690px;
     color: #fff;
     font-size: 54px;
     line-height: 58px;
@@ -9,4 +7,12 @@
     font-style: normal;
     padding: 0;
     margin: 0;
+}
+
+@media screen and (max-width: 568px) {
+    .intro__title {
+        max-height: 70px;
+        font-size: 32px;
+        line-height: 35px;
+    }
 }
