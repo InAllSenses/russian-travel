@@ -1,21 +1,21 @@
 .place__image {
   max-height: 460px;
   grid-auto-columns: fit-content(100%);
-} 
+}
 
 @media screen and (max-width: 1152px) {
   .place__image {
     max-height: 440px;
     margin: 0;
   }
-} 
+}
 
 @media screen and (max-width: 984px) {
   .place__image {
     max-height: 340px;
     margin: 0;
   }
-} 
+}
 
 @media screen and (max-width: 568px) {
   .place__image {
@@ -23,4 +23,4 @@
     grid-auto-columns: fit-content(100%);
     margin: 0;
   }
-} 
+}
