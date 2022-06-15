@@ -1,4 +1,4 @@
-.content__section {
+.content__cover {
     box-sizing: border-box;
     width: 100%;
     padding: 0 48px;
@@ -6,7 +6,7 @@
 }
 
 @media screen and (max-width: 1152px) {
-.content__section {
+.content__cover {
     padding: 0;
     margin: 0;
 }
