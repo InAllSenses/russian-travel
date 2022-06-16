@@ -3,16 +3,23 @@
   line-height: 76px;
   margin: 0;
   padding: 0;
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-weight: 900;
   font-style: normal;
-  white-space: pre-line;
+  max-width: 460px;
+}
+
+@media screen and (max-width: 984px) {
+  .place__title {
+    max-width: 440px;
+  }
 }
 
 @media screen and (max-width: 984px) {
   .place__title {
     font-size: 42px;
     line-height: 46px;
+    max-width: 340px;
   }
 }
 
@@ -22,5 +29,6 @@
     line-height: 35px;
     margin: 0 16px;
     white-space: normal;
+    max-width: 288px;
   }
 }

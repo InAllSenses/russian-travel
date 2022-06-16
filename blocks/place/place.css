@@ -26,11 +26,10 @@
   }
 }
 
-@media screen and (max-width: 635px) {
+@media screen and (max-width: 750px) {
   .place {
     row-gap: 32px;
     margin-bottom: 50px;
-    grid-template-columns: none;
-    grid-template-columns: repeat(auto-fill, minmax(152px, 320px));
+    grid-template-columns: repeat(auto-fill, minmax(152px, 750px));
   }
 }

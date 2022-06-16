@@ -3,6 +3,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  max-height: 18px;
 }
 
 @media screen and (max-width: 984px) {
@@ -11,11 +12,17 @@
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 720px) {
   .footer {
-    display: flex;
+    max-height: none;
     flex-direction: column;
-    justify-content: space-between;
-    margin: 0 16px;
+    margin-left: 16px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .footer {
+    min-height: 310px;
+    margin-left: 16px;
   }
 }
